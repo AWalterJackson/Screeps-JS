@@ -9,6 +9,8 @@ var creepRules = {
             case 'harvester':
                 harvesterCreep.run(creep);
                 break;
+            case 'upgrader':
+                upgraderCreep.run(creep);
             default:
                 break;
         }
