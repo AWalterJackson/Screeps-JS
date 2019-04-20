@@ -1,3 +1,4 @@
+var shouts = require('creep.shout');
 var builderCreep = {
 
     /** @param {Creep} creep **/
@@ -5,11 +6,11 @@ var builderCreep = {
 
         if(creep.memory.building && creep.carry.energy == 0) {
             creep.memory.building = false;
-            creep.say('🔄 harvest');
+            shouts.harvest(creep);
         }
         if(!creep.memory.building && creep.carry.energy == creep.carryCapacity) {
             creep.memory.building = true;
-            creep.say('🚧 build');
+            shouts.build(creep);
         }
 
         if(creep.memory.building) {
