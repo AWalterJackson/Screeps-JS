@@ -1,5 +1,6 @@
 var harvesterCreep = require('creep.types.harvester');
 var upgraderCreep = require('creep.types.upgrader');
+var builderCreep = require('creep.types.builder');
 
 var creepRules = {
 
@@ -11,6 +12,8 @@ var creepRules = {
                 break;
             case 'upgrader':
                 upgraderCreep.run(creep);
+            case 'builder':
+                builderCreep.run(creep):
             default:
                 break;
         }
