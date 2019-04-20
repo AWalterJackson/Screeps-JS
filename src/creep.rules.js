@@ -13,7 +13,7 @@ var creepRules = {
             case 'upgrader':
                 upgraderCreep.run(creep);
             case 'builder':
-                builderCreep.run(creep):
+                builderCreep.run(creep);
             default:
                 break;
         }
