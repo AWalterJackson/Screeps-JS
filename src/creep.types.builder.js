@@ -1,4 +1,4 @@
-var shouts = require('creep.shout');
+var shouts = require('creep.shouts');
 var builderCreep = {
 
     /** @param {Creep} creep **/
