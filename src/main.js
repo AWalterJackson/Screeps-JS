@@ -26,3 +26,4 @@ module.exports.loop = function () {
 //and they don't stop comin'
 //fed to the rules and i hit the ground runnin'
 //didn't make sense not to live for fun
+//your brain gets smart but your head gets dumb
